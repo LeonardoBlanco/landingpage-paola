@@ -4,18 +4,18 @@
     e.preventDefault();
 
     const mensagem = "Olá, quero falar com um especialista sobre meus direitos.";
-    const numero = "5511971602821";
+    const numero = "5511972722661";
 
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, '_blank');
   });
 
-//BOTÃO ESPECIALISTA
+  //BOTÃO ESPECIALISTA
   const especialistaButton = document.getElementById('especialistaButton');
   especialistaButton.addEventListener('click', function(e) {
     e.preventDefault();
     const mensagem = "Olá, quero falar com um especialista sobre meus direitos.";
-    const numero = "5511971602821";
+    const numero = "5511972722661";
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, '_blank');
 });
@@ -27,7 +27,7 @@ form.addEventListener('submit', function(e) {
 
     const nome = document.getElementById('nome').value;
     const mensagem = document.getElementById('mensagem').value;
-    const numero = "5511971602821";
+    const numero = "5511972722661";
 
     const texto = `Olá, meu nome é ${nome}. \nMensagem: ${mensagem}`;
 
