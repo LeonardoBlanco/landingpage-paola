@@ -14,7 +14,7 @@
   .logo {
   width: 400px;
   height: 400px;
-  background: linear-gradient(135deg, #B8860B, #DAA520, #FFD700, #DAA520, #B8860B);
+  background: linear-gradient(135deg, #8C602F, #D2AD66, #F4DA85, #D2AD66, #8C602F);
   
   -webkit-mask-image: url('../images/logo.png');
   -webkit-mask-repeat: no-repeat;
@@ -28,7 +28,7 @@
 }
 
   .botoes{
-    background: linear-gradient(135deg, #B8860B, #DAA520, #FFD700, #DAA520, #B8860B);
+    background: linear-gradient(135deg, #8C602F, #D2AD66, #F4DA85, #D2AD66, #8C602F);
     display: inline-block;      /* inline-block */
     color: #ffffff;             /* text-white */
     font-weight: 600;           /* font-semibold */

@@ -3,7 +3,7 @@
   whatsappButton.addEventListener('click', function(e) {
     e.preventDefault();
 
-    const mensagem = "Olá, quero falar com um especialista sobre meus direitos.";
+    const mensagem = "Olá, vim através do site e gostaria de mais informações.";
     const numero = "5511972722661";
 
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
@@ -14,7 +14,7 @@
   const especialistaButton = document.getElementById('especialistaButton');
   especialistaButton.addEventListener('click', function(e) {
     e.preventDefault();
-    const mensagem = "Olá, quero falar com um especialista sobre meus direitos.";
+    const mensagem = "Olá, vim através do site e gostaria de mais informações";
     const numero = "5511972722661";
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, '_blank');
@@ -29,7 +29,7 @@ form.addEventListener('submit', function(e) {
     const mensagem = document.getElementById('mensagem').value;
     const numero = "5511972722661";
 
-    const texto = `Olá, meu nome é ${nome}. \nMensagem: ${mensagem}`;
+    const texto = `Olá, vim através do site e gostaria de mais informações, meu nome é ${nome}. \nMensagem: ${mensagem}`;
 
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
 
