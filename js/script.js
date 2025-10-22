@@ -16,7 +16,7 @@ const botoes = document.querySelectorAll(".especialistaButton");
 botoes.forEach(botao => {
   botao.addEventListener('click', function(e) {
     e.preventDefault();
-    const mensagem = "Olá, vim através do site e gostaria de mais informações";
+    const mensagem = "Olá, vim através do site e gostaria de mais informações.";
     const numero = "5511972722661";
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, '_blank');
