@@ -30,4 +30,18 @@
   .botoes{
     background: linear-gradient(135deg, #8C602F, #D2AD66, #F4DA85, #D2AD66, #8C602F);
   }
+
+.font-brittany {
+  font-family: 'Great Vibes', cursive;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.font-playfair { font-family: 'Playfair Display', serif; }
+
+.font-cinzel { font-family: 'Cinzel', serif; }
+
+ .font-abril { font-family: 'Abril Fatface', serif; }
+
+
   

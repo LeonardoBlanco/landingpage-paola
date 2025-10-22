@@ -23,7 +23,6 @@ botoes.forEach(botao => {
   });
 });
 
-
 //FORM WHATSAPP
 const form = document.getElementById('whatsappForm');
 form.addEventListener('submit', function(e) {
