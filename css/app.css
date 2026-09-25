@@ -1,17 +1,22 @@
-.gradiente {
-    background: linear-gradient(135deg, #B8860B, #DAA520, #FFD700, #DAA520, #B8860B);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-  }
+body {
+  font-family: 'Gantari', sans-serif;
+}
 
-  .cursiva {
-    font-family: "Ephesis", cursive;
+.gradiente {
+  background: linear-gradient(135deg, #B8860B, #DAA520, #FFD700, #DAA520, #B8860B);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.cursiva {
+  font-family: "Ephesis", cursive;
   font-weight: 400;
   font-style: normal;
-  }
-  
-  .logo {
+}
+
+.logo {
   width: 400px;
   height: 400px;
   background: linear-gradient(135deg, #8C602F, #D2AD66, #F4DA85, #D2AD66, #8C602F);
@@ -27,9 +32,16 @@
   mask-size: contain;
 }
 
-  .botoes{
-    background: linear-gradient(135deg, #8C602F, #D2AD66, #F4DA85, #D2AD66, #8C602F);
-  }
+.botoes {
+  background: linear-gradient(135deg, #8C602F, #D2AD66, #F4DA85, #D2AD66, #8C602F);
+  color: #1a1a1a;
+  transition: all 0.3s ease;
+}
+
+.botoes:hover {
+  filter: brightness(1.12);
+  transform: translateY(-2px) scale(1.02);
+}
 
 .font-brittany {
   font-family: 'Great Vibes', cursive;
@@ -38,10 +50,9 @@
 }
 
 .font-playfair { font-family: 'Playfair Display', serif; }
-
 .font-cinzel { font-family: 'Cinzel', serif; }
+.font-abril { font-family: 'Abril Fatface', serif; }
 
- .font-abril { font-family: 'Abril Fatface', serif; }
 
 
   
