@@ -18,23 +18,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dra. Paola N. Toledo</title>
 
-  <link rel="icon" type="image/png" href="../images/favicon.png">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body class="bg-[#20251F] text-white font-[Gantari] relative">
 
 <!-- BOTÃO FLUTUANTE WHATSAPP -->
-<a id="whatsappButton" href="https://wa.me/5511972722661" class="fixed bottom-6 right-6 bg-green-600 hover:bg-green-700 text-white shadow-lg flex items-center justify-center z-50 transition w-16 h-16 rounded-full">
+<a id="whatsappButton" href="https://wa.me/5511972722661" class="fixed bottom-6 right-6 bg-green-600 hover:bg-green-700 text-white shadow-lg flex items-center justify-center z-50 transition w-16 h-16 rounded-full" aria-label="WhatsApp">
   <i class="fab fa-whatsapp text-4xl"></i>
 </a>
 
 <!-- BANNER PRINCIPAL -->
 <div class="w-full overflow-hidden">
-  <img src="../images/banner.jpg" 
+  <img src="images/banner.jpg" 
        alt="Toledo Advocacia Especializada" 
        class="w-full object-contain">
 </div>
@@ -65,14 +67,14 @@
     </p>
 
     <!-- Botão de ação -->
-    <a class="botoes especialistaButton inline-block mt-6 px-6 sm:px-8 py-3 bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-semibold rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300" target="_blank" href="#">
+    <a class="botoes especialistaButton inline-block mt-6 px-6 sm:px-8 py-3 text-gray-900 font-semibold rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300 cursor-pointer" target="_blank" href="#">
       ⚖️ Preciso de ajuda jurídica. Desejo iniciar meu atendimento!
     </a>
   </div>
 
   <!-- IMAGEM (direita) -->
   <div class="md:w-1/2 flex justify-center md:justify-end">
-    <img src="../images/dra-paola.png" alt="Dra. Paola Toledo" class="rounded-3xl shadow-2xl w-64 sm:w-72 md:w-80 lg:w-96 object-cover border-2 border-yellow-400">
+    <img src="images/dra-paola.png" alt="Dra. Paola Toledo" class="rounded-3xl shadow-2xl w-64 sm:w-72 md:w-80 lg:w-96 object-cover border-2 border-yellow-400">
   </div>
 
 </section>
@@ -81,23 +83,21 @@
 <section class="relative py-16 bg-gradient-to-b from-[#f8f9fa] to-white text-gray-900">
   <div class="max-w-6xl mx-auto px-6">
 
-<div class="mb-10">
-  <div class="flex flex-row items-center justify-between gap-4">
-    
-    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-[#20251F]">
-      Áreas de Atuação
-    </h2>
+    <div class="mb-10">
+      <div class="flex flex-row items-center justify-between gap-4">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-[#20251F]">
+          Áreas de Atuação
+        </h2>
 
-    <img
-      src="../images/logo.png"
-      alt="Atuação jurídica"
-      class="w-32 sm:w-40 md:w-48 lg:w-56 h-auto object-contain"
-      loading="lazy"
-      decoding="async"
-    />
-  </div>
-</div>
-
+        <img
+          src="images/logo.png"
+          alt="Toledo Advocacia Especializada"
+          class="w-32 sm:w-40 md:w-48 lg:w-56 h-auto object-contain"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    </div>
 
     <!-- BLOCO: CRIMINAL -->
     <div class="mb-20">
@@ -107,98 +107,88 @@
 
       <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-5">
         <!-- ITEM -->
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-user-tie text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Atuação em Delegacias</h4>
           <p class="text-sm text-gray-600">Acompanhamento de inquérito, flagrante e intimações.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-gavel text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Audiência de Custódia</h4>
           <p class="text-sm text-gray-600">Atuação imediata após prisão em flagrante.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-handcuffs text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Habeas Corpus</h4>
           <p class="text-sm text-gray-600">Pedidos urgentes de liberdade provisória.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-balance-scale text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Defesa em Processos</h4>
           <p class="text-sm text-gray-600">Atuação em todas as fases do processo penal.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-user-shield text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Assistente de Acusação</h4>
           <p class="text-sm text-gray-600">Defesa da vítima no processo criminal.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-scroll text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Execução da Pena</h4>
           <p class="text-sm text-gray-600">Acompanhamento de condenações e benefícios.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-unlock text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Progressão de Pena</h4>
           <p class="text-sm text-gray-600">Pedidos de liberdade, indulto e comutação.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-scale-balanced text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Tribunal do Júri</h4>
           <p class="text-sm text-gray-600">Defesa em crimes dolosos contra a vida.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-comments text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Crimes Contra a Honra</h4>
           <p class="text-sm text-gray-600">Calúnia, injúria e difamação.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-venus-mars text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Lei Maria da Penha</h4>
           <p class="text-sm text-gray-600">Defesa e proteção em casos de violência doméstica.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-money-bill-wave text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Lavagem de Dinheiro</h4>
+          <p class="text-sm text-gray-600">Defesa especializada em crimes financeiros e conformidade.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-users text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Organização Criminosa</h4>
+          <p class="text-sm text-gray-600">Atuação estratégica em investigações complexas e operações.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-gun text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Porte de Arma</h4>
+          <p class="text-sm text-gray-600">Defesa em casos de porte ou posse de arma de fogo.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-scale-unbalanced text-2xl mb-3 gradiente"></i>
           <h4 class="font-semibold text-lg mb-1">Demais Crimes</h4>
+          <p class="text-sm text-gray-600">Atuação completa em infrações penais da legislação brasileira.</p>
         </div>
       </div>
     </div>
@@ -210,52 +200,52 @@
       </h3>
 
       <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-5">
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-file-contract text-2xl mb-3 gradiente"></i>
-          <p class="font-semibold text-lg">Elaboração e análise de contratos</p>
+          <h4 class="font-semibold text-lg mb-1">Contratos</h4>
+          <p class="text-sm text-gray-600">Elaboração, análise e revisão contratual estratégica.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-child text-2xl mb-3 gradiente"></i>
-          <p class="font-semibold text-lg">Pensão, Visitas e Guarda</p>
+          <h4 class="font-semibold text-lg mb-1">Família e Menores</h4>
+          <p class="text-sm text-gray-600">Pensão alimentícia, regulamentação de visitas e guarda.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-ring text-2xl mb-3 gradiente"></i>
-          <p class="font-semibold text-lg">Divórcio Judicial e Extrajudicial</p>
+          <h4 class="font-semibold text-lg mb-1">Divórcio e Partilha</h4>
+          <p class="text-sm text-gray-600">Divórcios judiciais e extrajudiciais em cartório com agilidade.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-envelope-open-text text-2xl mb-3 gradiente"></i>
-          <p class="font-semibold text-lg">Acordos Extrajudiciais</p>
+          <h4 class="font-semibold text-lg mb-1">Acordos Extrajudiciais</h4>
+          <p class="text-sm text-gray-600">Negociação e conciliação para resoluções rápidas e eficazes.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-heart-broken text-2xl mb-3 gradiente"></i>
-          <p class="font-semibold text-lg">Danos Morais e Materiais</p>
+          <h4 class="font-semibold text-lg mb-1">Indenizações</h4>
+          <p class="text-sm text-gray-600">Ações de reparação por danos morais e materiais.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-shopping-cart text-2xl mb-3 gradiente"></i>
-          <p class="font-semibold text-lg">Direito do Consumidor</p>
+          <h4 class="font-semibold text-lg mb-1">Direito do Consumidor</h4>
+          <p class="text-sm text-gray-600">Proteção contra práticas abusivas, fraudes e negativação indevida.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-university text-2xl mb-3 gradiente"></i>
-          <p class="font-semibold text-lg">Ações Contra Bancos e Seguradoras</p>
+          <h4 class="font-semibold text-lg mb-1">Bancos e Seguradoras</h4>
+          <p class="text-sm text-gray-600">Ações contra juros abusivos, golpes e recusas de cobertura.</p>
         </div>
 
-        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300">
-
+        <div class="group bg-[#f8f9fa] border border-gray-200 p-5 rounded-2xl shadow-md hover:shadow-lg hover:-translate-y-1 transition duration-300 flex flex-col justify-start">
           <i class="fas fa-briefcase text-2xl mb-3 gradiente"></i>
-          <p class="font-semibold text-lg">Assessoria Jurídica para Empresas</p>
+          <h4 class="font-semibold text-lg mb-1">Assessoria Empresarial</h4>
+          <p class="text-sm text-gray-600">Suporte jurídico contínuo, concessionárias e empresas.</p>
         </div>
       </div>
     </div>
@@ -266,10 +256,10 @@
 <!-- CHAMADA EMOCIONAL -->
 <section class="text-center py-20 px-6 bg-[#1B1F1A]">
   <h2 class="text-3xl font-semibold mb-6">Está passando por um momento delicado e precisa de auxílio jurídico?</h2>
-  <p class="text-gray-300 mb-8">Conte comigo e com a minha equipe. Nosso atendimento é humano, personalizado e sempre focado na sua tranquilidade e nos seus direitos.</p>
+  <p class="text-gray-300 mb-8 max-w-2xl mx-auto">Conte comigo e com a minha equipe. Nosso atendimento é humano, personalizado e sempre focado na sua tranquilidade e nos seus direitos.</p>
     
   <!-- Botão -->
-  <a class="botoes especialistaButton inline-block mt-6 px-8 py-3 bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-semibold rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300" target="_blank" href="#">
+  <a class="botoes especialistaButton inline-block mt-6 px-8 py-3 text-gray-900 font-semibold rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300 cursor-pointer" target="_blank" href="#">
       ⚖️ Preciso de ajuda jurídica. Desejo iniciar meu atendimento!
   </a>
 </section>
@@ -280,7 +270,7 @@
     
     <!-- Foto -->
     <div class="w-full md:w-1/3 flex justify-center md:justify-center">
-      <img src="../images/foto_quem_sou_eu.jpg" alt="Dra. Paola Toledo" 
+      <img src="images/foto_quem_sou_eu.jpg" alt="Dra. Paola Toledo" 
           class="rounded-full shadow-lg w-72 h-72 md:w-80 md:h-80 object-cover">
     </div>
 
@@ -310,7 +300,7 @@
       <!-- Redes sociais -->
       <div class="mt-6">
         <span class="block mb-2 font-semibold">📲 Siga-me no Instagram:</span>
-        <a href="https://www.instagram.com/dra.paolatoledo" target="_blank" class="inline-block px-5 py-2 rounded-lg gradiente text-white font-semibold transition-transform transform hover:scale-105">
+        <a href="https://www.instagram.com/dra.paolatoledo" target="_blank" class="inline-block px-6 py-2.5 rounded-lg botoes text-gray-900 font-semibold shadow-md transition-transform transform hover:scale-105">
           @dra.paolatoledo
         </a>
       </div>
@@ -346,7 +336,7 @@
       <input type="text" id="nome" placeholder="Seu nome" class="p-3 rounded-lg text-black w-full" required>
       <textarea id="mensagem" placeholder="Sua mensagem" class="p-3 rounded-lg text-black w-full" rows="4" required></textarea>
       <button type="submit" 
-              class="botoes especialistaButton w-full px-4 py-3 bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-semibold rounded-lg shadow-md transition-all duration-300 hover:scale-105">
+              class="botoes w-full px-4 py-3 text-gray-900 font-semibold rounded-lg shadow-md transition-all duration-300 hover:scale-105 cursor-pointer">
         Enviar Mensagem
       </button>
     </form>
@@ -362,22 +352,35 @@
       <!-- Telefone/WhatsApp -->
       <p>
         <a href="https://wa.me/5511972722661" target="_blank" class="flex items-center hover:opacity-80">
-          <i class="fab fa-whatsapp gradiente mr-2"></i> +55 11 97272-2661
+          <i class="fab fa-whatsapp gradiente mr-2 text-xl"></i> +55 11 97272-2661
         </a>
       </p>
   
       <!-- Instagram -->
       <p>
         <a href="https://www.instagram.com/dra.paolatoledo" target="_blank" class="flex items-center hover:opacity-80">
-          <i class="fab fa-instagram gradiente mr-2"></i> @dra.paolatoledo
+          <i class="fab fa-instagram gradiente mr-2 text-xl"></i> @dra.paolatoledo
         </a>
       </p>
   
       <!-- Endereço -->
       <p>
-        <a href="https://www.google.com/maps/search/?api=1&query=Rua+José+Versolato,+111,+São+Bernardo+do+Campo,+SP" target="_blank" class="flex items-center hover:opacity-80">
-          <i class="fas fa-map-marker-alt gradiente mr-2"></i> Rua José Versolato, 111 - São Bernardo do Campo/SP
+        <a href="https://www.google.com/maps/search/?api=1&query=Rua+Jos%C3%A9+Versolato,+111,+S%C3%A3o+Bernardo+do+Campo,+SP" target="_blank" class="flex items-center hover:opacity-80">
+          <i class="fas fa-map-marker-alt gradiente mr-2 text-xl"></i> Rua José Versolato, 111 - São Bernardo do Campo/SP
         </a>
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      <h2 class="text-3xl font-bold mb-4">Atendimento</h2>
+      <p class="flex items-center text-gray-300">
+        <i class="fas fa-shield-alt gradiente mr-2 text-xl"></i> <span><strong>Plantão Criminal 24h:</strong> Emergências, prisões e flagrantes</span>
+      </p>
+      <p class="flex items-center text-gray-300">
+        <i class="fas fa-clock gradiente mr-2 text-xl"></i> <span><strong>Atendimento Geral:</strong> Segunda a Sexta, das 09h às 18h</span>
+      </p>
+      <p class="flex items-center text-gray-300">
+        <i class="fas fa-globe-americas gradiente mr-2 text-xl"></i> <span><strong>Abrangência:</strong> Atendimento presencial e online em todo o Brasil</span>
       </p>
     </div>
   </section>
